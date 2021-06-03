@@ -9,32 +9,56 @@ header {
 body {
   background: cadetblue;
 }
+.icon {
+  display: inline;
+  float: right;
+}
+.views {
+  display: inline;
+}
 .section {
-  width: 700px;
+  display: flex;
+  width: 800px;
   margin-left: 100px;
   border: 1px solid;
+  border-radius: 10px;
   background: white;
-  text-align: center;
+}
+.vid {
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
 }
 .images {
   display: inline-block;
-  width: 250px;
+  width: 350px;
+  border-left: 1px solid;
+  padding-left: 10px;
 }
 .product {
   display: inline-block;
-  width: 200px;
+  width: 300px;
   border: 1px solid;
   border-radius: 5px;
   padding: 0px;
   margin: 5px;
 }
+.product:hover {
+  border: 3px solid rgb(214, 214, 16);
+}
 .video {
   display: inline-block;
-  width: 400px;
+  width: 470px;
   border-bottom: 1px solid;
   margin-left: 10px;
+  padding: 10px;
+  padding-top: 50px;
 }
 .img-size {
-  width: 200px;
+  width: 300px;
   height: 200px;
+}
+.back {
+  margin-left: 10px;
+  margin-top: 20px;
+  color: yellow;
 }
