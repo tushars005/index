@@ -1,0 +1,31 @@
+body{
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+.li-item{
+    display: inline;
+    font-size: 20px;
+    padding: 0 20px 20px 
+}
+.navbar{
+    border-bottom: 1px solid;
+    padding:50px;
+    margin:0;
+}
+#title, .navbar, .pro-title{
+    text-align: center;
+}
+.product{
+    display:inline-block;
+    margin:0 30px ;
+}
+.product img{
+    width:200px;
+    height:200px;
+}
+.hov:hover{
+    background-color: orangered;
+}
+.divi{
+    display: inline-block;
+    margin: 0 50px;
+}

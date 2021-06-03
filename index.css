@@ -1,0 +1,45 @@
+#two{
+    color: blue !important;
+}
+
+.para
+.litype{
+    color :black;
+    font-size: 32px;
+}
+
+p{
+    color: blue;
+}
+.litype{
+    list-style-type: square;
+}
+.app{
+    
+    font-size:50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: blueviolet;
+    width: 100%;
+    padding: 10px 20px 30px 40px;
+    margin: 10px 20px 30px 40px
+}
+.app1, .aap2{
+    display:inline-block;
+    width:50%; 
+}
+.btn_click:hover{
+    cursor:not-allowed;
+    box-shadow: 10px 10px 5px blue;
+}
+.name:hover{
+    background-color: blue;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px
+}
+.clr{
+    background-color: cornflowerblue;
+}
