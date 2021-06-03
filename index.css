@@ -1,45 +1,30 @@
-#two{
-    color: blue !important;
+header {
+  background-color: cyan;
+  margin: 0 0 0 0;
 }
-
-.para
-.litype{
-    color :black;
-    font-size: 32px;
+.title {
+  text-align: center;
 }
-
-p{
-    color: blue;
+.section {
+  width: 1000px;
+  margin-left: 200px;
+  border: 1px solid;
 }
-.litype{
-    list-style-type: square;
+.images {
+  display: inline-block;
+  width: 250px;
 }
-.app{
-    
-    font-size:50px;
-    border: 1px solid black;
-    border-radius: 50px;
-    box-shadow: blueviolet;
-    width: 100%;
-    padding: 10px 20px 30px 40px;
-    margin: 10px 20px 30px 40px
+.product {
+  display: inline-block;
+  width: 200px;
+  border: 1px solid;
 }
-.app1, .aap2{
-    display:inline-block;
-    width:50%; 
+.video {
+  display: inline-block;
+  width: 700px;
+  border: 1px solid;
 }
-.btn_click:hover{
-    cursor:not-allowed;
-    box-shadow: 10px 10px 5px blue;
-}
-.name:hover{
-    background-color: blue;
-}
-table,th,td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px
-}
-.clr{
-    background-color: cornflowerblue;
+.img-size {
+  width: 200px;
+  height: 200px;
 }
